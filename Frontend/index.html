@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+<h2>User Management</h2>
+<!--<a href="/edit-user.html?id=${user.id}" class="btn">Edit</a>-->
+<a href="adduser.html" class="btn">Add User</a>
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="userTableBody">
+    <!-- Users will be loaded here -->
+    </tbody>
+</table>
+</body>
+</html>
